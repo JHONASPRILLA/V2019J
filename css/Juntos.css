@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Permanent+Marker&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+.pre_carga{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_carga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 80%;
+}
+
+.texto_carga{
+    margin-bottom: 1rem;
+    font-family: 'Sans-regular';
+    font-size: 30px;
+}
+
+.texto_carga span{
+    font-family: 'Georgia';
+    font-size: italic;
+    color: #e6589d;
+    width: 600px;
+}
+
+.carga{
+    width: 800px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(https://www.xtrafondos.com/wallpapers/restaurante-de-riverdale-8772.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*neon effect*/
+.container{
+    width: 100%;
+    height: 300px;
+    font-size: 6px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 7em;
+    margin: 20px 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+p:nth-child(1) a {
+    color: #2732fc;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+p:nth-child(1) a:hover {
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+p:nth-child(2) a {
+    color: #e6589d;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p:nth-child(2) a:hover {
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+p:nth-child(3) a {
+    color: #a100fe;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p:nth-child(3) a:hover {
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+
+p a:hover {
+    color: #ffffff;
+}
+
+
+
+/***********************glow for webkit-ket-frames********************************************/
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #943d27,
+            0 0 70px #943d27,
+            0 0 80px #943d27,
+            0 0 100px #943d27,
+            0 0 150px #943d27;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #943d27,
+            0 0 35px #943d27,
+            0 0 40px #943d27,
+            0 0 50px #943d27,
+            0 0 75px #943d27;
+    }
+}
+
+
+@-webkit-keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #336B87,
+            0 0 70px #336B87,
+            0 0 80px #336B87,
+            0 0 100px #336B87,
+            0 0 150px #336B87;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px  #336B87,
+            0 0 35px #336B87,
+            0 0 40px #336B87,
+            0 0 50px #336B87,
+            0 0 75px #336B87;
+    }
+}
+
+
+
+@-webkit-keyframes neon3 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #2A3132,
+            0 0 70px #2A3132,
+            0 0 80px #2A3132,
+            0 0 100px #2A3132,
+            0 0 150px #2A3132;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #2A3132,
+            0 0 35px #2A3132,
+            0 0 40px #2A3132,
+            0 0 50px #2A3132,
+            0 0 75px #2A3132;
+    }
+}
+
+/*glow for mozilla-keyframes*/
+@-moz-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #943d27,
+            0 0 70px #943d27,
+            0 0 80px #943d27,
+            0 0 100px #943d27,
+            0 0 150px #943d27;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #943d27,
+            0 0 35px #943d27,
+            0 0 40px #943d27,
+            0 0 50px #943d27,
+            0 0 75px #943d27;
+    }
+}
+
+
+
+@-moz-keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #336B87,
+            0 0 70px #336B87,
+            0 0 80px #336B87,
+            0 0 100px #336B87,
+            0 0 150px #336B87;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #336B87,
+            0 0 35px #336B87,
+            0 0 40px #336B87,
+            0 0 50px #336B87,
+            0 0 75px #336B87;
+    }
+}
+
+@-moz-keyframes neon3 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #2A3132,
+            0 0 70px #2A3132,
+            0 0 80px #2A3132,
+            0 0 100px #2A3132,
+            0 0 150px #2A3132;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #2A3132,
+            0 0 35px #2A3132,
+            0 0 40px #2A3132,
+            0 0 50px #2A3132,
+            0 0 75px #2A3132;
+    }
+}
+
+/*glow*/
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #943d27,
+            0 0 70px #943d27,
+            0 0 80px #943d27,
+            0 0 100px #943d27,
+            0 0 150px #943d27;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #943d27,
+            0 0 35px #943d27,
+            0 0 40px #943d27,
+            0 0 50px #943d27,
+            0 0 75px #943d27;
+    }
+}
+
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #336B87,
+            0 0 70px #336B87,
+            0 0 80px #336B87,
+            0 0 100px #336B87,
+            0 0 150px #336B87;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #336B87,
+            0 0 35px #336B87,
+            0 0 40px #336B87,
+            0 0 50px #336B87,
+            0 0 75px #336B87;
+    }
+}
+
+
+
+@keyframes neon3 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #2A3132,
+            0 0 70px #2A3132,
+            0 0 80px #2A3132,
+            0 0 100px #2A3132,
+            0 0 150px #2A3132;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #2A3132,
+            0 0 35px #2A3132,
+            0 0 40px #2A3132,
+            0 0 50px #2A3132,
+            0 0 75px #2A3132;
+    }
+}
+
+/* tarjetas con las fotos */
+.father{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.carta-box {
+    margin: 0px 130px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.carta-box:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+}
+
+.cara {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.cara.detras {
+    transform: rotateY(180deg);
+    color: #fff;
+    font-size: 7px;
+    backdrop-filter: blur(10px);
+    margin-left: -80px;
+    width: 380px;
+}
