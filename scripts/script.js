@@ -12,7 +12,7 @@ gsap.from(".carga", 2, {
 });
 
 gsap.to(".pre_carga", 3, {
-    top: "-100%",
+    top: "-170%",
     ease: "power10.inOut",
     delay: 3,
 })

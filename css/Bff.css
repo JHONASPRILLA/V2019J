@@ -381,3 +381,31 @@ p a:hover {
     writing-mode: horizontal-tb 150px;
 
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url(../assets/desierto-sol-abstracto_1220x2160_xtrafondos.com.jpg);
+        background-position: top;
+        background-size: cover;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .father{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .carta-box{
+        width: 100%;
+        margin-left: 45px;
+    }
+    
+    img{
+        margin-left: 10px;
+    }
+}

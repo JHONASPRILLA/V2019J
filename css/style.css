@@ -344,3 +344,18 @@ p a:hover {
     }
 }
 
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url(../assets/desierto-sol-abstracto_1220x2160_xtrafondos.com.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+    }
+
+    
+}
