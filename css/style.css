@@ -357,5 +357,7 @@ p a:hover {
         margin-top: 300px;
     }
 
-    
+    .carga{
+        width: 250px;
+    }
 }

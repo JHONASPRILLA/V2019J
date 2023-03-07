@@ -11,8 +11,8 @@ gsap.from(".carga", 2, {
     delay: 2,
 });
 
-gsap.to(".pre_carga", 3, {
+gsap.to(".pre_carga", 6, {
     top: "-170%",
     ease: "power10.inOut",
-    delay: 3,
+    delay: 6,
 })

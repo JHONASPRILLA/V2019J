@@ -403,9 +403,12 @@ p a:hover {
     .carta-box{
         width: 100%;
         margin-left: 45px;
+        margin-bottom: 40px;
     }
     
     img{
         margin-left: 10px;
     }
+
+    
 }
